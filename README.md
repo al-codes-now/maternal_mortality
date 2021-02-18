@@ -1,6 +1,6 @@
 # Maternal Mortality in the United States - A Regression Analysis 
 
-![img](./images/preg_belly.jpg)
+![img](./images/preg_belly.jpeg)
 
 ### Using regression analysis to learn more about the rising rate of maternal mortality in the United States 
 
