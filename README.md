@@ -85,6 +85,8 @@ In the future I would like to get data on an individual basis. I think it would 
 ## Repo Structure 
 
 images - images found in the readme 
+
 Final Notebooks - cleaned and finalized notebooks
+
 Gitignore - working notebooks 
 
