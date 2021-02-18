@@ -41,9 +41,38 @@ This graphs show us that women in the older age ranges experience higher rates o
 
 ## Methods 
 
-For this regression analysis I chose to run an Ordinary Least Squares model. For evaluating where or not my variables impact the maternal death rate I am prioritizing p-values and R-sqaured and Adj. R-sqaured as an evaluation metric. 
+For this regression analysis I chose to run an Ordinary Least Squares model. For evaluating where or not my variables impact the maternal death rate I am prioritizing p-values and R-sqaured and Adj. R-sqaured as an evaluation metric. In this model I controled for age and state.
 
 I ran multiple models which can be found in the modeling notebook. I tested each of my independant variables againt the dependant variable individually, however I found these results to be biased since this showed each IV being statistically significant. 
 
 ## Results
+
+Below are the results from my baseline OLS model, which produced the highest R-sqaured and Adj. R-squared. 
+
+![img](./images/results_1.jpg)
+
+
+![img](./images/results_2.jpg)
+
+The p-values of the variables below indicate statistical significance at the 95% significance level
+
+- RTE_GON - negative impact on the DEATH_RTE
+
+- PRC_BLK - negative impact on the DEATH_RTE
+
+- PRC_WHT - negative impact on the DEATH_RTE
+
+- PRC_HISP - positive impact on the DEATH_RTE
+
+- fifteen_nineteen - negative impact on the DEATH_RTE
+
+- twnty_twntyfour - positive impact on the DEATH_RTE
+
+- twntyfiv_twntynine - positive impact on the DEATH_RTE
+
+- thrtyfiv_thrtynine - positive impact on the DEATH_RTE
+
+It is not surprising that the older groups of woman are impacting the maternal death rates more in comparison to the younger groups. It is important to note that the percent of white and black fertile women impact the maternal death rate disproportionally. 
+
+## Conclusion
 
